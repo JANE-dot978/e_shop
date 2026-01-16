@@ -24,15 +24,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
           children: [
             SwitchListTile(
               title: Text(
-                themeProvider.getIsDarkTHeme
+                themeProvider.getIsDarkTheme
                     ? "Dark Theme"
                     : "Light Theme",
               ),
-              value: themeProvider.getIsDarkTHeme,
+              value: themeProvider.getIsDarkTheme,
               onChanged: (value) {
                 themeProvider.setDarkTheme(value);
                 debugPrint(
-                  'Theme State: ${themeProvider.getIsDarkTHeme}',
+                  'Theme State: ${themeProvider.getIsDarkTheme}',
                 );
               },
             ),

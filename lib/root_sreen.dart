@@ -9,6 +9,7 @@ import 'package:iconly/iconly.dart';
 
 
 class RootScreen extends StatefulWidget {
+  static const routName = "/RootScreen";
   const RootScreen({super.key});
 
   @override
